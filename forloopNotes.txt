@@ -1,0 +1,85 @@
+if condition 
+//condition return should be always boolean
+//if condition data type is other thaan boolean we will compilation error  
+
+if(condition){
+// if body will run only condition is true 
+}else {
+	//else body will run only if condition is false 
+}
+
+//if we have multiple if condition and it is interlink 
+
+if(condition){
+  // this condition will be check first 
+  //if it is true ,rest of the condition will be skipped 
+} else if (condition){
+	
+	//if above condition is false then it will check and
+	// this body will execute only when else if condition is true 
+
+} else if (condition){
+
+} else {
+
+	//else will be executed if all above condition is false
+	//maximum one else condition will be having 
+} 
+
+
+
+====================================================================================
+
+Switch 
+
+Switch Syntax 
+// switch condition can not be boolean , if it is boolean then compilation error 
+//switch internally do the equality check 
+// condition data type and case data type should be same 
+// u need to you break statement with in each case else it will execute all below cases 
+// with the condition we can pass expression var%2
+//duplicate cases are not allowed 
+switch(condition){ 
+
+case 0 :
+
+case 2 :
+
+case 3:
+
+default :
+
+}
+
+=================================================================================
+for loop 
+// whenever we have to perform or execute some set of statement repetative then we use loops
+// when we know no of iteration to be execute 
+// for loop is divided in three section 
+	initialization ---> from where he has to start the execution 
+	condition --> Till what condition he has to execute same statement 
+	increment/decrement --->
+// whether all three section is not mandatory --it will execute till you get outof memory 
+		for (;;){
+		}
+// postfix /prefix will not have any impact 
+// declaration can happen outside but initialization is mandatory in for loop 
+//
+for loop syntax
+
+for (initialization;condition;increment/decrement){
+
+}
+
+///= for loop execution follow
+Iteration 1-
+Step1 - initialization (int i=1)
+step2 -if will check for condition, 
+step3 -if condition is true then for loop will execute
+step4- increment/decrement
+Iteration 2-
+step2 -if will check for condition, 
+step3 -if condition is true then for loop will execute
+step4- increment/decrement
+
+
